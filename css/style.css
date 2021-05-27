@@ -1,0 +1,43 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    color: #111238;
+    text-decoration: none;
+    margin: 0;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.menu-item:not(:last-child){
+    margin-right: 20px;
+}
+
+.menu-link{
+    color: #111238;
+    text-decoration: none;
+}
+
+.button{
+    text-decoration: none;
+    display: inline-block;  
+}
+
+.button-link{
+    padding: 10px;
+    color: #111238;
+    margin-right: 30px;
+}
+
+.button-primary{
+    background-color: #1A75E8;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+
